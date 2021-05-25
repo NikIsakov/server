@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chat.client.Controller">
+    <MenuBar>
+        <Menu text="Программа">
+            <MenuItem onAction="#exitAction" text="Выйти" />
+        </Menu>
+    </MenuBar>
+    <TextArea fx:id="mainArea" editable="false" prefHeight="181.0" prefWidth="423.0" VBox.vgrow="ALWAYS" />
+    <HBox />
+   <TextField fx:id="msgField" editable="true" />
+   <ToolBar prefHeight="40.0" prefWidth="200.0">
+      <items>
+         <Button contentDisplay="RIGHT" mnemonicParsing="false" onAction="#sendMsgAction" prefHeight="25.0" prefWidth="99.0" text="Send command" />
+          <Button alignment="CENTER_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#hndlOpenFile" prefHeight="25.0" prefWidth="79.0" text="Choose File" textAlignment="CENTER" />
+          <Button mnemonicParsing="false" onAction="#hndlDownloadFile" prefHeight="25.0" prefWidth="93.0" text="Download file" />
+      </items>
+   </ToolBar>
+    <ListView fx:id="listView" prefHeight="112.0" prefWidth="423.0" />
+</VBox>
