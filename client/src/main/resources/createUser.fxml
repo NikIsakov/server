@@ -19,5 +19,5 @@
             <Button alignment="CENTER_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" onAction="#registerOnAction" text="Зарегистрироваться" />
         </items>
     </ToolBar>
-    <ListView fx:id="listView" prefHeight="112.0" prefWidth="423.0" />
+    <ListView fx:id="listView" prefHeight="112.0" prefWidth="423.0" />//
 </VBox>
