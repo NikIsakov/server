@@ -72,3 +72,4 @@ public class ControllerAuthen extends Window implements Initializable {
         primaryStage.show();
     }
 }
+//

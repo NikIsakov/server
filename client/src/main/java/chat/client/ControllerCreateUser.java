@@ -43,3 +43,4 @@ public class ControllerCreateUser extends Window implements Initializable {
         newUser.add(loginField.getText(),passwordField.getText(), nicknameField.getText());
     }
 }
+//
